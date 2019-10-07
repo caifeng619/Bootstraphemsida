@@ -1,0 +1,100 @@
+*
+*::after,
+*::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --background-color:#2A9D8F;
+    --btn-width:6rem;
+}
+body{
+    font-size: 16px;
+    background: var(--background-color);
+}
+/* header{
+    position: relative;
+    height: 25rem;
+    width:100%;
+    background: url(bee-large.jpg);
+    font-size: 1.5rem;
+}
+.heading{
+    position: absolute;
+    left:0;
+    top:30%;
+    width:100%;
+    text-align: center;
+} */
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:25rem;
+    width:100%;
+    background-image: url(bee-large.jpg);
+    font-size: 1.5rem;
+}
+.section{
+    display: flex;
+}
+.item{
+    flex:25%;
+    padding: 10px;
+}
+#item-3{
+    float: left;
+    margin: 1rem;
+}
+#item-4{
+    clear: left;
+}
+button::after {
+    font-weight: 900px;
+    font-family: "Font Awesome 5 Free";
+    content: "\f104";
+}
+input{
+    border-radius: 10px;
+    text-align: center;
+    height: 30px;
+    margin: 5px;
+}
+#item-4::first-line{
+    font-size: 20px;
+    text-transform: uppercase;
+    color: brown;
+    font-style: italic;
+}
+
+.btn{
+    background-color: #56E39F;
+    border-radius: 2rem;
+    padding:1rem;
+    text-decoration: none;
+    margin:1rem;
+}
+.btn:hover{
+    animation: skala 2s ease-in-out infinite;
+}
+@keyframes skala{
+    0%{
+        transform: scale(2)
+    }
+    50%{
+        transform: rotate(180deg);
+    }
+}
+footer{
+    height: 5rem;
+    background: var(--background-color);
+    text-align:center;
+    padding:2rem;
+}
+
+@media screen and (max-width:620px){
+    body{
+        background-color: bisque;
+    }
+ }
