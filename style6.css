@@ -9,3 +9,13 @@
 .griditems{
     background-color: turquoise;
 }
+.container{
+    height: 1000px;
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap:20px;
+}
+@media screen and(max-width:480px){
+
+}
