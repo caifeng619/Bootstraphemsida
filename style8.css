@@ -13,6 +13,9 @@
     font-size: 25px;
     color:black;
 }
+#navi>li>a:hover{
+    background-color:#1EADF0;
+}
 #heading{
     text-align: center;
     padding:100px;
@@ -21,9 +24,115 @@
     background:url(banner.jpg);
     background-size: cover;
 }
+    .tjansterSecHeader{
+        font-size: 80px;
+        padding: 10px;
+        padding-bottom: 50px;
+        text-align: center;
+    }
+    
+    .tjansterbuttons{
+        padding-top: 10px;
+        display: flex;
+        justify-content: space-around;
+    } 
+    .contactSec{
+        padding: 10px;
+        display: flex;
+    }
+    .leftContactSec{
+        flex: 1;
+        padding: 10px;
+    }
+    .rightContactSec{
+        flex: 1;
+        padding: 10px;
+    }
+    #kontakt{
+        margin-top: 30px;
+    }
+    #button1{
+        background: url("computer.jpg");
+        background-size:cover;
+        height: 10rem;
+        width:20rem;
+        text-align: center;
+        padding:40px;
+        font-size: 20px;
+        clip-path: circle(50% at 50% 50%);
+    }
+    #button2{
+        background: url("computer.jpg");
+        background-size:cover;
+        height: 10rem;
+        width:20rem;
+        text-align: center;
+        padding:40px;
+        font-size: 20px;
+        clip-path: circle(50% at 50% 50%);
+    }
+    #button3{
+        background: url("computer.jpg");
+        background-size:cover;
+        background-position: center;
+        height: 10rem;
+        width:20rem;
+        text-align: center;
+        padding:40px;
+        font-size: 20px;
+        clip-path: circle(50% at 50% 50%);
+    }
+    /* .about-us{
+        display: flex;
+        padding: 60px;
+    }  */
+    .left-div{
+        color: rgb(255, 81, 0);    
+    }
+    .center{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding-left: 60px;
+        color: rgb(255, 81, 0);       
+    }    
+    .right{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        color: rgb(255, 81, 0);
+    }
+    #del4{
+        margin-top:15px;
+
+    }
 @media screen and (max-width:600px){
   .nav{
       display: flex;
       flex-direction: column;
   }
+  #heading{
+      padding:50px;
+  }
+  .tjansterSec{
+    height: 300px;
+}
+
+.tjansterSecHeader{
+    font-size: 35px;
+}
+.tjansterbuttons{
+    display: flex;
+    flex-direction: column;   
+}
+.button{
+    margin-top: 2px;
+}
+.contactSec{
+    display: flex;
+    flex-direction: column;
+}
+.center{
+    padding-left: 15px;
+}
 }
