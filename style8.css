@@ -58,7 +58,7 @@
         width:20rem;
         text-align: center;
         padding:40px;
-        font-size: 20px;
+        font-size: 25px;
         clip-path: circle(50% at 50% 50%);
     }
     #button2{
@@ -68,18 +68,18 @@
         width:20rem;
         text-align: center;
         padding:40px;
-        font-size: 20px;
+        font-size: 25px;
         clip-path: circle(50% at 50% 50%);
     }
     #button3{
-        background: url("computer.jpg");
+        background: url("busy-computer.jpg");
         background-size:cover;
         background-position: center;
         height: 10rem;
         width:20rem;
         text-align: center;
         padding:40px;
-        font-size: 20px;
+        font-size: 25px;
         clip-path: circle(50% at 50% 50%);
     }
     /* .about-us{
