@@ -1,0 +1,28 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    height: 90vh;
+    background: url("adventure-small.jpg");
+    background-size: cover;
+    /* clip-path: polygon(0 0, 100% 90%, 0% 100%); */
+    position: relative;
+}
+.menu{
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+}
+.item{
+    list-style: none;
+}
+.headingstyle{
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+}
