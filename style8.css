@@ -1,0 +1,29 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#logo{
+    clip-path: circle(50% at 50% 50%);
+    width: 40px;
+}
+.nav-link{
+    font-size: 25px;
+    color:black;
+}
+#heading{
+    text-align: center;
+    padding:100px;
+    font-size: 150%;
+    color: black;
+    background:url(banner.jpg);
+    background-size: cover;
+}
+@media screen and (max-width:600px){
+  .nav{
+      display: flex;
+      flex-direction: column;
+  }
+}
